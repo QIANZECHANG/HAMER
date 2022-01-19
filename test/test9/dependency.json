@@ -1,0 +1,128 @@
+[
+    {
+        "func": {
+            "dep": [
+                {
+                    "name": "a",
+                    "state": "input",
+                    "type": "int",
+                    "coord": "dep_src.c:21:14"
+                }
+            ],
+            "ret": [
+                {
+                    "coord": "dep_src.c:30:5"
+                }
+            ],
+            "object": [
+                "x",
+                "node*",
+                25,
+                21
+            ]
+        },
+        "new_node1": {
+            "dep": [
+                {
+                    "name": "a",
+                    "state": "input",
+                    "type": "int",
+                    "coord": "dep_src.c:9:21"
+                }
+            ],
+            "ret": [
+                {
+                    "coord": "dep_src.c:12:5"
+                }
+            ],
+            "object": [
+                "n",
+                "node*",
+                10,
+                9
+            ]
+        },
+        "error_object": [
+            "n",
+            "node*",
+            10
+        ]
+    },
+    {
+        "func": {
+            "dep": [
+                {
+                    "name": "a",
+                    "state": "input",
+                    "type": "int",
+                    "coord": "dep_src.c:21:14"
+                }
+            ],
+            "ret": [
+                {
+                    "coord": "dep_src.c:30:5"
+                }
+            ],
+            "object": [
+                "x",
+                "node*",
+                27,
+                21
+            ]
+        },
+        "new_node2": {
+            "dep": [
+                {
+                    "name": "a",
+                    "state": "input",
+                    "type": "int",
+                    "coord": "dep_src.c:15:21"
+                }
+            ],
+            "ret": [
+                {
+                    "coord": "dep_src.c:18:5"
+                }
+            ],
+            "object": [
+                "n",
+                "node*",
+                16,
+                15
+            ]
+        },
+        "error_object": [
+            "n",
+            "node*",
+            16
+        ]
+    },
+    {
+        "func": {
+            "dep": [
+                {
+                    "name": "a",
+                    "state": "input",
+                    "type": "int",
+                    "coord": "dep_src.c:21:14"
+                }
+            ],
+            "ret": [
+                {
+                    "coord": "dep_src.c:30:5"
+                }
+            ],
+            "object": [
+                "y",
+                "node*",
+                24,
+                21
+            ]
+        },
+        "error_object": [
+            "y",
+            "node*",
+            24
+        ]
+    }
+]

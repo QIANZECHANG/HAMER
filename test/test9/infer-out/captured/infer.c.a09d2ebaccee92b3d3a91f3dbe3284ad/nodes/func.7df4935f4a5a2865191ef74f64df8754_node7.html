@@ -1,0 +1,213 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>func.7df4935f4a5a2865191ef74f64df8754_node7</title>
+<style type="text/css">
+body { color:#000000; background-color:#ffffff }
+body { font-family:Helvetica, sans-serif; font-size:10pt }
+h1 { font-size:14pt }
+.code { border-collapse:collapse; width:100%; }
+.code { font-family: "Andale Mono", monospace; font-size:10pt }
+.code { line-height: 1.2em }
+.comment { color: green; font-style: oblique }
+.keyword { color: blue }
+.string_literal { color: red }
+.color_black { color: black }
+.color_blue { color: blue }
+.color_green { color: green }
+.color_red { color: red }
+.color_orange { color: orange }
+.directive { color: darkmagenta }
+.expansion { display: none; }
+.visited:hover .expansion { display: block; border: 2px solid #FF0000; padding: 2px; background-color:#FFF0F0; font-weight: normal; -webkit-border-radius:5px; -webkit-box-shadow:1px 1px 7px #000; position: absolute; top: -1em; left:10em; z-index: 1 }
+.visited { color: darkmagenta; background-color:LemonChiffon; position: relative }
+.visitedproof:hover .expansion { display: block; border: 2px solid #FF0000; padding: 2px; background-color:#FFF0F0; font-weight: normal; -webkit-border-radius:5px; -webkit-box-shadow:1px 1px 7px #000; position: absolute; top: -1em; left:10em; z-index: 1 }
+.visitedproof { color: darkmagenta; background-color:lightgreen; position: relative }
+.dangling:hover .expansion { display: block; border: 2px solid #FF0000; padding: 2px; background-color:#FFF0F0; font-weight: normal; -webkit-border-radius:5px; -webkit-box-shadow:1px 1px 7px #000; position: absolute; top: -1em; left:10em; z-index: 1 }
+.dangling { color: gray; background-color:white; position: relative }
+.num { width:2.5em; padding-right:2ex; background-color:#eeeeee }
+.num { text-align:right; font-size: smaller }
+.num { color:#444444 }
+.line { padding-left: 1ex; border-left: 3px solid #ccc }
+.line { white-space: pre }
+.msg { background-color:#fff8b4; color:#000000 }
+.msg { -webkit-box-shadow:1px 1px 7px #000 }
+.msg { -webkit-border-radius:5px }
+.msg { font-family:Helvetica, sans-serif; font-size: smaller }
+.msg { font-weight: bold }
+.msg { float:left }
+.msg { padding:0.5em 1ex 0.5em 1ex }
+.msg { margin-top:10px; margin-bottom:10px }
+.msg { max-width:60em; word-wrap: break-word; white-space: pre-wrap;}
+.mrange { background-color:#dfddf3 }
+.mrange { border-bottom:1px solid #6F9DBE }
+.PathIndex { font-weight: bold }
+table.simpletable { padding: 5px; font-size:12pt; margin:20px; border-collapse: collapse; border-spacing: 0px; }
+td.rowname { text-align:right; font-weight:bold; color:#444444; padding-right:2ex; }
+</style>
+</head>
+<body>
+<center><h1>Cfg Node <a href="./../../infer.c.a09d2ebaccee92b3d3a91f3dbe3284ad.html#LINE26">7</a></h1></center>PROC: <a href="./../func.7df4935f4a5a2865191ef74f64df8754.html">func</a> LINE: <a href="./../../infer.c.a09d2ebaccee92b3d3a91f3dbe3284ad.html#LINE26">26</a>
+<br>PREDS:
+<a href="./../nodes/func.7df4935f4a5a2865191ef74f64df8754_node6.html"><span class='dangling'>N_6<span class='expansion'>node6 preds:10 succs:7 8 exn: 
+NOT VISITED</span></span></a><br>SUCCS: 
+<a href="./../nodes/func.7df4935f4a5a2865191ef74f64df8754_node9.html"><span class='dangling'>N_9<span class='expansion'>node9 preds:7 succs:5 exn: 
+NOT VISITED</span></span></a><br>EXN: 
+<br>
+<span class='color_green'><LISTING>PRUNE((n$1  &lt;  5), true); [line 26, column 8];
+</LISTING></span><hr width="100%">
+<a name="session7" href="./../nodes/func.7df4935f4a5a2865191ef74f64df8754_node7.html#session7">node7#session7</a>(<a href="./../../infer.c.a09d2ebaccee92b3d3a91f3dbe3284ad.html#LINE26">26</a>) uninit (7: 0)<LISTING><span class='color_black'>PRE: 
+ uninit_vars: { } 
+ aliased_vars: { } 
+ prepost: ({ }, { })
+INSTR: assume a < 5 [line 26, column 8]
+POST: 
+ uninit_vars: { } 
+ aliased_vars: { } 
+ prepost: ({ }, { })
+
+</LISTING></span><hr width="100%">
+<a name="session18" href="./../nodes/func.7df4935f4a5a2865191ef74f64df8754_node7.html#session18">node7#session18</a>(<a href="./../../infer.c.a09d2ebaccee92b3d3a91f3dbe3284ad.html#LINE26">26</a>) siof<LISTING><span class='color_black'>PRE: ({ }, { })
+INSTRS: PRUNE((n$1  &lt;  5), true); [line 26, column 8];
+POST: ({ }, { })
+
+</LISTING></span><hr width="100%">
+<a name="session30" href="./../nodes/func.7df4935f4a5a2865191ef74f64df8754_node7.html#session30">node7#session30</a>(<a href="./../../infer.c.a09d2ebaccee92b3d3a91f3dbe3284ad.html#LINE26">26</a>) address taken<LISTING><span class='color_black'>PRE: { }
+INSTRS: PRUNE((n$1  &lt;  5), true); [line 26, column 8];
+POST: { }
+
+</LISTING></span><hr width="100%">
+<a name="session43" href="./../nodes/func.7df4935f4a5a2865191ef74f64df8754_node7.html#session43">node7#session43</a>(<a href="./../../infer.c.a09d2ebaccee92b3d3a91f3dbe3284ad.html#LINE26">26</a>) racerd<LISTING><span class='color_black'>PRE: Threads: NoThread, Locks: { } 
+Accesses { } 
+ Ownership: { y -> Unowned,
+              a -> OwnedIf{ 0 },
+              x -> Unowned,
+              p -> Owned,
+              p.[_] -> Owned } 
+Attributes: { p.[_] -> { Functional } } 
+Non-stable Paths: { p.[_], x, y, n$10, n$9 }
+
+INSTR: assume a < 5 [line 26, column 8]
+POST: Threads: NoThread, Locks: { } 
+Accesses { } 
+ Ownership: { y -> Unowned,
+              a -> OwnedIf{ 0 },
+              x -> Unowned,
+              p -> Owned,
+              p.[_] -> Owned } 
+Attributes: { p.[_] -> { Functional } } 
+Non-stable Paths: { p.[_], x, y, n$10, n$9 }
+
+
+</LISTING></span><hr width="100%">
+<a name="session55" href="./../nodes/func.7df4935f4a5a2865191ef74f64df8754_node7.html#session55">node7#session55</a>(<a href="./../../infer.c.a09d2ebaccee92b3d3a91f3dbe3284ad.html#LINE26">26</a>) ownership<LISTING><span class='color_black'>PRE: { y -> Owned, x -> Owned }
+INSTR: assume a < 5 [line 26, column 8]
+POST: { y -> Owned, x -> Owned }
+
+</LISTING></span><hr width="100%">
+<a name="session67" href="./../nodes/func.7df4935f4a5a2865191ef74f64df8754_node7.html#session67">node7#session67</a>(<a href="./../../infer.c.a09d2ebaccee92b3d3a91f3dbe3284ad.html#LINE26">26</a>) interproc<LISTING><span class='color_black'>**** [FP:Pending] func Node: 7, Procedure: func, Session: 67, Todo: 2 ****
+  PROP 1 of 2:
+  <span class='color_blue'><span class='color_red'>n$1 = old_a</span> ;
+  <span class='color_red'>MEMma &lt; malloc:24 &gt;  <span class='color_orange'>{vpath: }</span>(_t$1)</span>; <span class='color_red'>UND &lt; new_node1 &gt; :25(x)</span> ;
+  <span class='color_red'>y = 0 <span class='color_orange'>nullify</span>:N*</span>; <span class='color_red'>a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_red'>old_a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_red'>x = @f$0 <span class='color_orange'>update:25</span>:N*</span>; <span class='color_red'>return = _t$0 <span class='color_orange'>initial</span>:int</span>; <span class='color_red'>p = [2|0:_fun_new_node1 <span class='color_orange'>update:22</span>, 1:_fun_new_node2 <span class='color_orange'>update:22</span>] <span class='color_orange'>initial</span>:_fn_(*)[2*_]</span>
+  [footprint
+     <span class='color_red'>@f$2 = x</span> *
+     <span class='color_red'>a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_red'>$RET_new_node1|abducedRetvar = @f$0 <span class='color_orange'>none</span>:N*( sub )</span>  ]</span>
+  PROP 2 of 2:
+  <span class='color_blue'><span class='color_red'>n$1 = old_a</span> ;
+  <span class='color_red'>UND &lt; new_node1 &gt; :25(x)</span> ;
+  <span class='color_red'>y = 0 <span class='color_orange'>nullify</span>:N*</span>; <span class='color_red'>a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_red'>old_a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_red'>x = @f$0 <span class='color_orange'>update:25</span>:N*</span>; <span class='color_red'>return = _t$0 <span class='color_orange'>initial</span>:int</span>; <span class='color_red'>p = [2|0:_fun_new_node1 <span class='color_orange'>update:22</span>, 1:_fun_new_node2 <span class='color_orange'>update:22</span>] <span class='color_orange'>initial</span>:_fn_(*)[2*_]</span>
+  [footprint
+     <span class='color_red'>@f$2 = x</span> *
+     <span class='color_red'>a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_red'>$RET_new_node1|abducedRetvar = @f$0 <span class='color_orange'>none</span>:N*( sub )</span>  ]</span>
+  .... Instructions: .... 
+  <span class='color_green'>PRUNE((n$1  &lt;  5), true); [line 26, column 8];
+  REMOVE_TEMPS(n$1); [line 26, column 8];
+  NULLIFY(&amp;x); [line 26, column 8];
+  </span>
+  
+  Processing prop 1/2
+    Instruction <span class='color_green'>PRUNE((n$1  &lt;  5), true); [line 26, column 8]</span>
+    in vpath_find exp:n$47
+    vpath_find: cannot find n$47
+    Instruction Returns
+    PROP 1 of 1:
+    <span class='color_blue'><span class='color_blue'>n$1 = old_a</span> ;
+    <span class='color_red'>(@f$1  &lt;=  4)</span>; <span class='color_blue'>MEMma &lt; malloc:24 &gt;  <span class='color_orange'>{vpath: }</span>(_t$1)</span>; <span class='color_blue'>UND &lt; new_node1 &gt; :25(x)</span> ;
+    <span class='color_blue'>y = 0 <span class='color_orange'>nullify</span>:N*</span>; <span class='color_blue'>a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_blue'>old_a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_blue'>x = @f$0 <span class='color_orange'>update:25</span>:N*</span>; <span class='color_blue'>return = _t$0 <span class='color_orange'>initial</span>:int</span>; <span class='color_blue'>p = [2|0:_fun_new_node1 <span class='color_orange'>update:22</span>, 1:_fun_new_node2 <span class='color_orange'>update:22</span>] <span class='color_orange'>initial</span>:_fn_(*)[2*_]</span>
+    [footprint
+       <span class='color_blue'>@f$2 = x</span>; <span class='color_red'>(@f$1  &lt;=  4)</span> *
+       <span class='color_blue'>a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_blue'>$RET_new_node1|abducedRetvar = @f$0 <span class='color_orange'>none</span>:N*( sub )</span>  ]</span>
+    
+    Instruction <span class='color_green'>REMOVE_TEMPS(n$1); [line 26, column 8]</span>
+    in vpath_find exp:_t$1
+    vpath_find: cannot find _t$1
+    Instruction Returns
+    PROP 1 of 1:
+    <span class='color_blue'><span class='color_blue'>(@f$1  &lt;=  4)</span>; <span class='color_blue'>MEMma &lt; malloc:24 &gt;  <span class='color_orange'>{vpath: }</span>(_t$1)</span>; <span class='color_blue'>UND &lt; new_node1 &gt; :25(x)</span> ;
+    <span class='color_blue'>y = 0 <span class='color_orange'>nullify</span>:N*</span>; <span class='color_blue'>a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_blue'>old_a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_blue'>x = @f$0 <span class='color_orange'>update:25</span>:N*</span>; <span class='color_blue'>return = _t$0 <span class='color_orange'>initial</span>:int</span>; <span class='color_blue'>p = [2|0:_fun_new_node1 <span class='color_orange'>update:22</span>, 1:_fun_new_node2 <span class='color_orange'>update:22</span>] <span class='color_orange'>initial</span>:_fn_(*)[2*_]</span>
+    [footprint
+       <span class='color_blue'>@f$2 = x</span>; <span class='color_blue'>(@f$1  &lt;=  4)</span> *
+       <span class='color_blue'>a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_blue'>$RET_new_node1|abducedRetvar = @f$0 <span class='color_orange'>none</span>:N*( sub )</span>  ]</span>
+    
+    Instruction <span class='color_green'>NULLIFY(&amp;x); [line 26, column 8]</span>
+    in vpath_find exp:_t$1
+    vpath_find: cannot find _t$1
+    Instruction Returns
+    PROP 1 of 1:
+    <span class='color_blue'><span class='color_red'>(@f$0  &lt;=  4)</span>; <span class='color_blue'>MEMma &lt; malloc:24 &gt;  <span class='color_orange'>{vpath: }</span>(_t$1)</span>; <span class='color_red'>UND &lt; new_node1 &gt; :25(@f$1)</span> ;
+    <span class='color_blue'>y = 0 <span class='color_orange'>nullify</span>:N*</span>; <span class='color_blue'>a = <span class='color_red'>@f$0 <span class='color_orange'>formal</span></span>:int</span>; <span class='color_blue'>old_a = <span class='color_red'>@f$0 <span class='color_orange'>formal</span></span>:int</span>; <span class='color_blue'>x = <span class='color_red'>0 <span class='color_orange'>nullify</span></span>:N*</span>; <span class='color_blue'>return = _t$0 <span class='color_orange'>initial</span>:int</span>; <span class='color_blue'>p = [2|0:_fun_new_node1 <span class='color_orange'>update:22</span>, 1:_fun_new_node2 <span class='color_orange'>update:22</span>] <span class='color_orange'>initial</span>:_fn_(*)[2*_]</span>
+    [footprint
+       <span class='color_blue'>@f$2 = <span class='color_red'>@f$1</span></span>; <span class='color_red'>(@f$0  &lt;=  4)</span> *
+       <span class='color_blue'>a = <span class='color_red'>@f$0 <span class='color_orange'>formal</span></span>:int</span>; <span class='color_blue'>$RET_new_node1|abducedRetvar = <span class='color_red'>@f$1 <span class='color_orange'>none</span></span>:N*( sub )</span>  ]</span>
+    
+    .... After Symbolic Execution ....
+    PROP 1 of 1:
+    <span class='color_blue'><span class='color_red'>(@f$0  &lt;=  4)</span>; <span class='color_blue'>MEMma &lt; malloc:24 &gt;  <span class='color_orange'>{vpath: }</span>(_t$1)</span>; <span class='color_red'>UND &lt; new_node1 &gt; :25(@f$1)</span> ;
+    <span class='color_blue'>y = 0 <span class='color_orange'>nullify</span>:N*</span>; <span class='color_blue'>a = <span class='color_red'>@f$0 <span class='color_orange'>formal</span></span>:int</span>; <span class='color_blue'>old_a = <span class='color_red'>@f$0 <span class='color_orange'>formal</span></span>:int</span>; <span class='color_blue'>x = <span class='color_red'>0 <span class='color_orange'>nullify</span></span>:N*</span>; <span class='color_blue'>return = _t$0 <span class='color_orange'>initial</span>:int</span>; <span class='color_blue'>p = [2|0:_fun_new_node1 <span class='color_orange'>update:22</span>, 1:_fun_new_node2 <span class='color_orange'>update:22</span>] <span class='color_orange'>initial</span>:_fn_(*)[2*_]</span>
+    [footprint
+       <span class='color_blue'>@f$2 = <span class='color_red'>@f$1</span></span>; <span class='color_red'>(@f$0  &lt;=  4)</span> *
+       <span class='color_blue'>a = <span class='color_red'>@f$0 <span class='color_orange'>formal</span></span>:int</span>; <span class='color_blue'>$RET_new_node1|abducedRetvar = <span class='color_red'>@f$1 <span class='color_orange'>none</span></span>:N*( sub )</span>  ]</span>
+    
+    
+    
+  Processing prop 2/2
+    Instruction <span class='color_green'>PRUNE((n$1  &lt;  5), true); [line 26, column 8]</span>
+    Instruction Returns
+    PROP 1 of 1:
+    <span class='color_blue'><span class='color_blue'>n$1 = old_a</span> ;
+    <span class='color_red'>(@f$1  &lt;=  4)</span>; <span class='color_blue'>UND &lt; new_node1 &gt; :25(x)</span> ;
+    <span class='color_blue'>y = 0 <span class='color_orange'>nullify</span>:N*</span>; <span class='color_blue'>a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_blue'>old_a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_blue'>x = @f$0 <span class='color_orange'>update:25</span>:N*</span>; <span class='color_blue'>return = _t$0 <span class='color_orange'>initial</span>:int</span>; <span class='color_blue'>p = [2|0:_fun_new_node1 <span class='color_orange'>update:22</span>, 1:_fun_new_node2 <span class='color_orange'>update:22</span>] <span class='color_orange'>initial</span>:_fn_(*)[2*_]</span>
+    [footprint
+       <span class='color_blue'>@f$2 = x</span>; <span class='color_red'>(@f$1  &lt;=  4)</span> *
+       <span class='color_blue'>a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_blue'>$RET_new_node1|abducedRetvar = @f$0 <span class='color_orange'>none</span>:N*( sub )</span>  ]</span>
+    
+    Instruction <span class='color_green'>REMOVE_TEMPS(n$1); [line 26, column 8]</span>
+    Instruction Returns
+    PROP 1 of 1:
+    <span class='color_blue'><span class='color_blue'>(@f$1  &lt;=  4)</span>; <span class='color_blue'>UND &lt; new_node1 &gt; :25(x)</span> ;
+    <span class='color_blue'>y = 0 <span class='color_orange'>nullify</span>:N*</span>; <span class='color_blue'>a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_blue'>old_a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_blue'>x = @f$0 <span class='color_orange'>update:25</span>:N*</span>; <span class='color_blue'>return = _t$0 <span class='color_orange'>initial</span>:int</span>; <span class='color_blue'>p = [2|0:_fun_new_node1 <span class='color_orange'>update:22</span>, 1:_fun_new_node2 <span class='color_orange'>update:22</span>] <span class='color_orange'>initial</span>:_fn_(*)[2*_]</span>
+    [footprint
+       <span class='color_blue'>@f$2 = x</span>; <span class='color_blue'>(@f$1  &lt;=  4)</span> *
+       <span class='color_blue'>a = @f$1 <span class='color_orange'>formal</span>:int</span>; <span class='color_blue'>$RET_new_node1|abducedRetvar = @f$0 <span class='color_orange'>none</span>:N*( sub )</span>  ]</span>
+    
+    Instruction <span class='color_green'>NULLIFY(&amp;x); [line 26, column 8]</span>
+    Instruction Returns
+    PROP 1 of 1:
+    <span class='color_blue'><span class='color_red'>(@f$0  &lt;=  4)</span>; <span class='color_red'>UND &lt; new_node1 &gt; :25(@f$1)</span> ;
+    <span class='color_blue'>y = 0 <span class='color_orange'>nullify</span>:N*</span>; <span class='color_blue'>a = <span class='color_red'>@f$0 <span class='color_orange'>formal</span></span>:int</span>; <span class='color_blue'>old_a = <span class='color_red'>@f$0 <span class='color_orange'>formal</span></span>:int</span>; <span class='color_blue'>x = <span class='color_red'>0 <span class='color_orange'>nullify</span></span>:N*</span>; <span class='color_blue'>return = _t$0 <span class='color_orange'>initial</span>:int</span>; <span class='color_blue'>p = [2|0:_fun_new_node1 <span class='color_orange'>update:22</span>, 1:_fun_new_node2 <span class='color_orange'>update:22</span>] <span class='color_orange'>initial</span>:_fn_(*)[2*_]</span>
+    [footprint
+       <span class='color_blue'>@f$2 = <span class='color_red'>@f$1</span></span>; <span class='color_red'>(@f$0  &lt;=  4)</span> *
+       <span class='color_blue'>a = <span class='color_red'>@f$0 <span class='color_orange'>formal</span></span>:int</span>; <span class='color_blue'>$RET_new_node1|abducedRetvar = <span class='color_red'>@f$1 <span class='color_orange'>none</span></span>:N*( sub )</span>  ]</span>
+    
+    .... After Symbolic Execution ....
+    PROP 1 of 1:
+    <span class='color_blue'><span class='color_red'>(@f$0  &lt;=  4)</span>; <span class='color_red'>UND &lt; new_node1 &gt; :25(@f$1)</span> ;
+    <span class='color_blue'>y = 0 <span class='color_orange'>nullify</span>:N*</span>; <span class='color_blue'>a = <span class='color_red'>@f$0 <span class='color_orange'>formal</span></span>:int</span>; <span class='color_blue'>old_a = <span class='color_red'>@f$0 <span class='color_orange'>formal</span></span>:int</span>; <span class='color_blue'>x = <span class='color_red'>0 <span class='color_orange'>nullify</span></span>:N*</span>; <span class='color_blue'>return = _t$0 <span class='color_orange'>initial</span>:int</span>; <span class='color_blue'>p = [2|0:_fun_new_node1 <span class='color_orange'>update:22</span>, 1:_fun_new_node2 <span class='color_orange'>update:22</span>] <span class='color_orange'>initial</span>:_fn_(*)[2*_]</span>
+    [footprint
+       <span class='color_blue'>@f$2 = <span class='color_red'>@f$1</span></span>; <span class='color_red'>(@f$0  &lt;=  4)</span> *
+       <span class='color_blue'>a = <span class='color_red'>@f$0 <span class='color_orange'>formal</span></span>:int</span>; <span class='color_blue'>$RET_new_node1|abducedRetvar = <span class='color_red'>@f$1 <span class='color_orange'>none</span></span>:N*( sub )</span>  ]</span>
+    
+    
+    
+  </LISTING></span>
